@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sztuczna Inteligencja</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <header>
+    <h1>Sztuczna Inteligencja</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Strona Główna</a></li>
+        <li><a href="podstrony/podstrona1.html">Galeria</a></li>
+        <li><a href="podstrony/podstrona2.html">Źródła</a></li>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Witaj na stronie o Sztucznej Inteligencji!</h2>
+      <p>Sztuczna inteligencja (SI) to dziedzina informatyki, która zajmuje się tworzeniem programów i systemów naśladujących ludzkie myślenie, uczenie się i podejmowanie decyzji.</p>
+      <p>Obecnie sztuczna inteligencja odgrywa coraz większą rolę w naszym codziennym życiu – od asystentów głosowych i tłumaczy języków, przez inteligentne samochody, aż po systemy wykrywające choroby na podstawie zdjęć medycznych.</p>
+
+<p>Rozwój AI budzi też wiele pytań: czy maszyny zastąpią ludzi w pracy? Czy będą podejmować decyzje etyczne? Na tej stronie znajdziesz odpowiedzi na te pytania oraz przykłady zastosowania SI w różnych dziedzinach życia.</p>
+<p>Obecnie <strong>sztuczna inteligencja</strong> rozwija się w zawrotnym tempie. Systemy uczące się potrafią analizować dane, rozpoznawać wzorce i podejmować decyzje szybciej niż człowiek. Dzięki temu SI znajduje zastosowanie w niemal każdej dziedzinie – od <em>medycyny</em>, przez <em>motoryzację</em>, aż po <em>rozrywkę</em> i <em>edukację</em>.</p>
+
+<p>W 1997 roku komputer <strong>Deep Blue</strong> pokonał mistrza świata w szachach <em>Garry’ego Kasparowa</em>, co uznaje się za symboliczny przełom w rozwoju sztucznej inteligencji. Dziś systemy AI pomagają diagnozować choroby, analizować rynek finansowy, a nawet tworzyć obrazy, muzykę i teksty.</p>
+
+<p>Według <strong>prof. Yoshuy Bengio</strong>, jednego z pionierów głębokiego uczenia, <em>„sztuczna inteligencja to narzędzie, które może pomóc ludzkości rozwiązać najtrudniejsze problemy – ale tylko, jeśli będziemy ją rozwijać odpowiedzialnie”</em>. To zdanie przypomina, jak ważna jest <strong>etyka</strong> i <strong>świadome korzystanie</strong> z nowych technologii.</p>
+
+<p>Na tej stronie możesz poznać najważniejsze informacje o AI i zobaczyć, jak wpływa ona na różne obszary naszego życia. Dowiesz się również, jakie wyzwania stoją przed współczesnymi naukowcami oraz co może nas czekać w przyszłości.</p>
+
+
+    </section>
+
+    <section>
+      <h2>Zastosowania SI</h2>
+      <p>Sztuczna inteligencja znajduje zastosowanie w wielu dziedzinach. Kliknij, aby dowiedzieć się więcej:</p>
+      <ul class="categories">
+        <li><a href="podstrony/medycyna.html"><strong>Medycyna</strong></a></li>
+        <li><a href="podstrony/motoryzacja.html"><strong>Motoryzacja</strong></a></li>
+        <li><a href="podstrony/finanse.html"><strong>Finanse</strong></a></li>
+        <li><a href="podstrony/rozrywka.html"><strong>Rozrywka</strong></a></li>
+        <li><a href="podstrony/edukacja.html"><strong>Edukacja</strong></a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Ciekawostka o SI</h2>
+      <button onclick="pokazCiekawostke()">Pokaż ciekawostkę</button>
+      <p id="ciekawostka"></p>
+    </section>
+
+    <section>
+      <h2>Obejrzyj film</h2>
+      <iframe  width="560" height="315" src="https://www.youtube.com/embed/2ePf9rue1Ao" frameborder="0" allowfullscreen></iframe>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Sztuczna Inteligencja | Autor: Karol Barski</p>
+  </footer>
+
+  <script>
+    const ciekawostki = [
+      "Pierwsza koncepcja sztucznej inteligencji pojawiła się w latach 50. XX wieku.",
+      "SI potrafi diagnozować choroby szybciej niż lekarz w niektórych przypadkach.",
+      "Algorytmy SI uczą się na podstawie ogromnych zbiorów danych.",
+      "Wirtualni asystenci, tacy jak Siri czy Alexa, to przykłady SI.",
+      "SI jest używana do wykrywania oszustw w bankowości."
+    ];
+
+    function pokazCiekawostke() {
+      const losowa = ciekawostki[Math.floor(Math.random() * ciekawostki.length)];
+      document.getElementById("ciekawostka").textContent = losowa;
+    }
+  </script>
+</body>
+</html>
