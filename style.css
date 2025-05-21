@@ -133,3 +133,15 @@ button:hover {
   height: 100%;
   border: 0;
 }
+
+
+figure {
+  text-align: center;
+  margin: 0;
+}
+
+figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #555;
+}
