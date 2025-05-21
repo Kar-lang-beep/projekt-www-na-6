@@ -141,17 +141,14 @@ figure {
   margin: 0;
 }
 
-figcaption {
-  margin-top: 8px;
-  font-size: 14px;
-  color: #555;
-}
 
 
 }
 
 .galeria figure {
-  width: 30%; 
+  width: 45%; /* delikatne zmniejszenie – dwa obok siebie na szerokich ekranach */
+  text-align: center;
+  margin: 0;
 }
 @media (max-width: 768px) {
   .galeria figure {
@@ -163,5 +160,11 @@ figcaption {
   .galeria figure {
     width: 100%; /* 1 kolumna na telefonie */
   }
+}
+
+figcaption {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #444;
 }
 
