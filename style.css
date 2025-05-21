@@ -145,3 +145,10 @@ figcaption {
   font-size: 14px;
   color: #555;
 }
+
+.galeria {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 20px;
+}
