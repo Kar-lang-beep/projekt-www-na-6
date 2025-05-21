@@ -1,4 +1,4 @@
-/* Font i ogólny styl */
+/* === Font i ogólny styl === */
 body {
   font-family: 'Nunito Sans', sans-serif;
   line-height: 1.6;
@@ -9,21 +9,13 @@ body {
   padding: 0;
 }
 
-/* Główne sekcje */
+
+/* === Nagłówek i stopka === */
 header {
   background-color: #4CAF50;
   color: white;
   padding: 1em;
   text-align: center;
-}
-
-main {
-  max-width: 1000px;
-  margin: 20px auto;
-  padding: 30px;
-  background-color: #fff;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
 footer {
@@ -36,7 +28,8 @@ footer {
   width: 100%;
 }
 
-/* Nawigacja */
+
+/* === Nawigacja === */
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -54,7 +47,19 @@ nav ul li a {
   font-weight: 600;
 }
 
-/* Tekst */
+
+/* === Główna zawartość === */
+main {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
+}
+
+
+/* === Tekst === */
 h2 {
   font-size: 26px;
   margin-bottom: 20px;
@@ -73,7 +78,8 @@ strong {
   font-weight: 700;
 }
 
-/* Galeria */
+
+/* === Galeria === */
 .galeria {
   display: flex;
   flex-wrap: wrap;
@@ -83,7 +89,7 @@ strong {
 }
 
 .galeria figure {
-  flex: 1 1 300px; /* elastyczne minimum 300px */
+  flex: 1 1 300px;
   max-width: 320px;
   text-align: center;
   margin: 0;
@@ -109,9 +115,8 @@ figcaption {
   color: #444;
 }
 
-}
 
-/* Przyciski */
+/* === Przyciski === */
 button {
   background-color: #4CAF50;
   color: white;
@@ -127,6 +132,8 @@ button:hover {
   background-color: #45a049;
 }
 
+
+/* === Wideo (YouTube) === */
 .video-container {
   position: relative;
   width: 100%;
@@ -146,17 +153,7 @@ button:hover {
 }
 
 
-figure {
-  text-align: center;
-  margin: 0;
-}
-
-
-
-}
-
-
-}
+/* === Responsywność === */
 @media (max-width: 768px) {
   .galeria figure {
     width: 48%; /* 2 kolumny na tablecie */
@@ -168,6 +165,5 @@ figure {
     width: 100%; /* 1 kolumna na telefonie */
   }
 }
-
 
 
