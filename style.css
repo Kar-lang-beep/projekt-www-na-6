@@ -181,4 +181,6 @@ button:hover {
 .ciekawostki li strong {
   color: #2a7a2f;
 }
-
+html {
+overlow-x: hidden
+}
