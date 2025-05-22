@@ -1,6 +1,7 @@
 /* === Font i ogólny styl === */
 body {
   font-family: 'Nunito Sans', sans-serif;
+  width: 100vw;
   line-height: 1.6;
   font-size: 16px;
   background-color: #f4f4f4;
