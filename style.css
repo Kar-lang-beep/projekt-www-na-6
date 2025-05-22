@@ -188,3 +188,8 @@ button:hover {
 .ciekawostki li strong {
   color: #2a7a2f;
 }
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
