@@ -12,6 +12,7 @@ body {
 
 /* === Nagłówek i stopka === */
 header {
+  width: 100vw;
   background-color: #4CAF50;
   color: white;
   padding: 1em;
