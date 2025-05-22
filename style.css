@@ -166,4 +166,19 @@ button:hover {
   }
 }
 
+.ciekawostki {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
 
+.ciekawostki li {
+  margin-bottom: 12px;
+  font-size: 16px;
+  color: #333;
+  line-height: 1.5;
+}
+
+.ciekawostki li strong {
+  color: #2a7a2f;
+}
