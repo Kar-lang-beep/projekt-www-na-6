@@ -164,7 +164,7 @@ button:hover {
     width: 100%; /* 1 kolumna na telefonie */
   }
 }
-
+/* === Ciekawoski === */
 .ciekawostki {
   list-style-type: disc;
   padding-left: 20px;
